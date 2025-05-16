@@ -1,5 +1,13 @@
+# Real-Time Fire Detection using YOLOv8
 
----
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shreyakmukherjee/An-AI-powered-computer-vision-approach-for-Fire-Detection-System-Using-YOLOv8-in-Real-Time/blob/main/fire_detection.ipynb)
+
+
+It is a real-time fire detection system built using the YOLOv8 object detection model and trained on a publicly available fire dataset from Kaggle. The project leverages the speed and accuracy of deep learning to detect fire or flames from live video streams, such as a webcam feed. By processing frames in real-time, the system can help in early flame detection, which is crucial for fire safety and surveillance applications.
+
+The model is trained on a labeled Kaggle dataset, which includes various fire scenarios in both indoor and outdoor environments. After training, the best model weights are used to perform live inference via webcam, displaying bounding boxes around detected fire regions.
+
+This solution is lightweight, efficient, and can be deployed on standard hardware, making it suitable for smart surveillance systems, forest fire monitoring, and real-time hazard alerting.
 
 ## ✅ Features
 
